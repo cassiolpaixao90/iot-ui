@@ -122,8 +122,6 @@ Just install the lib and import the css files in [vendor.ts](https://github.com/
 npm install bootstrap@next --save
 ```
 
-And in [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) add the following:
-
 ```ts
 import 'bootstrap/dist/css/bootstrap.css';
 ```
