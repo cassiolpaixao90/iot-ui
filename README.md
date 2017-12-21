@@ -17,8 +17,8 @@ This seed repo serves as an Angular starter for anyone looking to get up and run
 ### Quick start
 
 ```bash
-# clone our repo
-$ git clone https://github.com/preboot/angular-webpack.git my-app
+# clone 
+$ git clone https://github.com/cassiolpaixao90/iot-frontend-angular.git my-app
 
 # change directory to your app
 $ cd my-app
