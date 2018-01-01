@@ -5,7 +5,7 @@ import { ApiService } from './shared';
 import '../style/app.scss';
 
 @Component({
-  selector: 'my-app', // <my-app></my-app>
+  selector: 'iot-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
