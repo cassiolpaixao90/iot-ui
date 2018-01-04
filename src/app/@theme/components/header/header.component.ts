@@ -1,8 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-
 import { NbMenuService, NbSidebarService } from '@nebular/theme';
 import { UserService } from '../../../@core/data/users.service';
-import { AnalyticsService } from '../../../@core/utils/analytics.service';
 
 @Component({
   selector: 'ngx-header',
@@ -20,8 +18,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(private sidebarService: NbSidebarService,
               private menuService: NbMenuService,
-              private userService: UserService,
-              private analyticsService: AnalyticsService) {
+              private userService: UserService) {
   }
 
   ngOnInit() {
@@ -33,7 +30,6 @@ export class HeaderComponent implements OnInit {
     this.sidebarService.toggle(true, 'menu-sidebar');
     return false;
   }
- 
 
   goToHome() {
     this.menuService.navigateHome();
