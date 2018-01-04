@@ -33,11 +33,7 @@ export class HeaderComponent implements OnInit {
     this.sidebarService.toggle(true, 'menu-sidebar');
     return false;
   }
-
-  toggleSettings(): boolean {
-    this.sidebarService.toggle(false, 'settings-sidebar');
-    return false;
-  }
+ 
 
   goToHome() {
     this.menuService.navigateHome();
