@@ -35,7 +35,7 @@ import { ContaComponent } from './conta/conta.component';
     PlayerComponent,
     SolarComponent,
     KittenComponent,
-    ContaComponent
+    ContaComponent,
   ],
 })
 export class DashboardModule { }
