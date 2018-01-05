@@ -48,12 +48,12 @@
       font-size: 4rem;
       font-weight: nb-theme(font-weight-bolder);
 
-      &.temperature::before {
-        position: absolute;
-        content: '°';
-        top: 0;
-        right: -1.25rem;
-      }
+      // &.temperature::before {
+      //   position: absolute;
+      //   content: '°';
+      //   top: 0;
+      //   right: -1.25rem;
+      // }
 
       &.humidity::before {
         position: absolute;

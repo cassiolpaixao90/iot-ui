@@ -13,6 +13,8 @@ import { ElectricityComponent } from './electricity/electricity.component';
 import { ElectricityChartComponent } from './electricity/electricity-chart/electricity-chart.component';
 import { SolarComponent } from './solar/solar.component';
 import { PlayerComponent } from './rooms/player/player.component';
+import { KittenComponent } from './kitten/kitten.component';
+import { ContaComponent } from './conta/conta.component';
 
 
 @NgModule({
@@ -32,6 +34,8 @@ import { PlayerComponent } from './rooms/player/player.component';
     ElectricityChartComponent,
     PlayerComponent,
     SolarComponent,
+    KittenComponent,
+    ContaComponent
   ],
 })
 export class DashboardModule { }

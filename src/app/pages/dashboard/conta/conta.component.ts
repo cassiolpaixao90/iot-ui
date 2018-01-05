@@ -4,11 +4,11 @@ import { NbThemeService } from '@nebular/theme';
 import { ElectricityService } from '../../../@core/data/electricity.service';
 
 @Component({
-  selector: 'ngx-electricity',
-  styleUrls: ['./electricity.component.scss'],
-  templateUrl: './electricity.component.html',
+  selector: 'ngx-conta',
+  styleUrls: ['./conta.component.scss'],
+  templateUrl: './conta.component.html',
 })
-export class ElectricityComponent implements OnDestroy {
+export class ContaComponent implements OnDestroy {
 
   data: Array<any>;
 
