@@ -3,7 +3,7 @@ import { NbMenuService, NbSidebarService } from '@nebular/theme';
 import { UserService } from '../../../@core/data/users.service';
 
 @Component({
-  selector: 'ngx-header',
+  selector: 'iot-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
 })
