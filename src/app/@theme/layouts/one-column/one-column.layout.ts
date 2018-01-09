@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   template: `
     <nb-layout>
       <nb-layout-header fixed>
-        <ngx-header></ngx-header>
+        <iot-header></iot-header>
       </nb-layout-header>
 
       <nb-sidebar class="menu-sidebar" tag="menu-sidebar" responsive>
@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
       </nb-layout-column>
 
       <nb-layout-footer fixed>
-        <ngx-footer></ngx-footer>
+        <iot-footer></iot-footer>
       </nb-layout-footer>
     </nb-layout>
   `,

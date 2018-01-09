@@ -21,7 +21,7 @@ import 'rxjs/add/operator/delay';
   template: `
     <nb-layout [center]="layout.id === 'center-column'" windowMode>
       <nb-layout-header fixed>
-        <ngx-header [position]="sidebar.id === 'left' ? 'normal': 'inverse'"></ngx-header>
+        <iot-header [position]="sidebar.id === 'left' ? 'normal': 'inverse'"></iot-header>
       </nb-layout-header>
 
       <nb-sidebar class="menu-sidebar"
@@ -49,7 +49,7 @@ import 'rxjs/add/operator/delay';
       </nb-layout-column>
 
       <nb-layout-footer fixed>
-        <ngx-footer></ngx-footer>
+        <iot-footer></iot-footer>
       </nb-layout-footer>
 
       <nb-sidebar class="settings-sidebar"
