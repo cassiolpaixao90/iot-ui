@@ -1,7 +1,7 @@
 import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
-import { ElectricityService } from '../../../@core/data/electricity.service';
+import { ElectricityService } from '../../../core/data/electricity.service';
 
 @Component({
   selector: 'ngx-electricity',

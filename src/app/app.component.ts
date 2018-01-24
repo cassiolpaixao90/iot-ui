@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AnalyticsService } from './@core/utils/analytics.service';
+import { AnalyticsService } from './core/utils/analytics.service';
 
 @Component({
   selector: 'ngx-app',
