@@ -30,7 +30,6 @@
         "../node_modules/ionicons/scss/ionicons.scss",
         "../node_modules/font-awesome/scss/font-awesome.scss",
         "../node_modules/nebular-icons/scss/nebular-icons.scss",
-        "../node_modules/socicon/css/socicon.css",
         "../node_modules/pace-js/templates/pace-theme-flash.tmpl.css",
         "./app/@theme/styles/styles.scss"
       ],
@@ -41,9 +40,9 @@
         "../node_modules/tinymce/plugins/link/plugin.min.js",
         "../node_modules/tinymce/plugins/paste/plugin.min.js",
         "../node_modules/tinymce/plugins/table/plugin.min.js",
-      '  "./assets/vendors/echarts.min.js",
+        "./assets/vendors/echarts.min.js",
         "./assets/vendors/echarts.world.min.js",
-        "../node_modules/chart.js/dist/Chart.min.js"'
+        "../node_modules/chart.js/dist/Chart.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -59,7 +58,6 @@
   },
   "lint": [
     {
-      "files": "src/**/*.ts",
       "project": "src/tsconfig.app.json"
     },
     {

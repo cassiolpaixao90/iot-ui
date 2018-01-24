@@ -8,7 +8,7 @@ import { NbThemeService } from '@nebular/theme';
 })
 export class TemperatureComponent implements OnDestroy {
 
-  temperature = 100;
+  temperature = 24;
   temperatureOff = false;
   temperatureMode = 'cool';
 

@@ -5,7 +5,7 @@ export class ElectricityService {
 
   private data = [
     {
-      title: '2015',
+      title: '2016',
       months: [
         { month: 'Jan', delta: '0.97', down: true, kWatts: '816', cost: '97' },
         { month: 'Fev', delta: '1.83', down: true, kWatts: '806', cost: '95' },
@@ -22,7 +22,7 @@ export class ElectricityService {
       ],
     },
     {
-      title: '2016',
+      title: '2017',
       active: true,
       months: [
         { month: 'Jan', delta: '1.56', down: true, kWatts: '789', cost: '91' },
@@ -40,20 +40,20 @@ export class ElectricityService {
       ],
     },
     {
-      title: '2017',
+      title: '2018',
       months: [
         { month: 'Jan', delta: '1.34', down: false, kWatts: '789', cost: '91' },
-        { month: 'Fev', delta: '0.95', down: false, kWatts: '793', cost: '93' },
-        { month: 'Mar', delta: '0.25', down: true, kWatts: '791', cost: '92' },
-        { month: 'Abr', delta: '1.72', down: false, kWatts: '797', cost: '95' },
-        { month: 'Mai', delta: '2.62', down: true, kWatts: '786', cost: '90' },
-        { month: 'Jun', delta: '0.72', down: false, kWatts: '789', cost: '91' },
-        { month: 'Jul', delta: '0.78', down: true, kWatts: '784', cost: '89' },
-        { month: 'Ago', delta: '0.36', down: true, kWatts: '782', cost: '88' },
-        { month: 'Set', delta: '0.55', down: false, kWatts: '787', cost: '90' },
-        { month: 'Out', delta: '1.81', down: true, kWatts: '779', cost: '86' },
-        { month: 'Nov', delta: '1.12', down: true, kWatts: '774', cost: '84' },
-        { month: 'Dez', delta: '0.52', down: false, kWatts: '776', cost: '95' },
+        { month: 'Fev', delta: '0.33', down: false, kWatts: '791', cost: '92' },
+        { month: 'Mar', delta: '0.62', down: true, kWatts: '790', cost: '92' },
+        { month: 'Abr', delta: '1.93', down: true, kWatts: '783', cost: '87' },
+        { month: 'Mai', delta: '2.52', down: true, kWatts: '771', cost: '83' },
+        { month: 'Jun', delta: '0.39', down: false, kWatts: '774', cost: '85' },
+        { month: 'Jul', delta: '1.61', down: true, kWatts: '767', cost: '81' },
+        { month: 'Ago', delta: '1.41', down: true, kWatts: '759', cost: '76' },
+        { month: 'Set', delta: '1.03', down: true, kWatts: '752', cost: '74' },
+        { month: 'Out', delta: '2.94', down: false, kWatts: '769', cost: '82' },
+        { month: 'Nov', delta: '0.26', down: true, kWatts: '767', cost: '81' },
+        { month: 'Dez', delta: '1.62', down: true, kWatts: '760', cost: '76' },
       ],
     },
   ];

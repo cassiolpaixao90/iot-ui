@@ -1,22 +1,41 @@
 <nb-card size="large">
+  <div class="consumption-table">
+    <div class="table-header">
+      <div>Eletricidade</div>
+      <div class="subtitle">Consumo</div>
+    </div>
+
+    <nb-tabset fullWidth>
+      <nb-tab *ngFor="let year of data" [tabTitle]="year.title" [active]="year.active">
+        <div class="stats-month" *ngFor="let month of year.months">
+          <div>
+            <span class="month">{{ month.month }}</span>
+            <span class="delta" [ngClass]="{ 'down': month.down }">{{ month.delta }}</span>
+          </div>
+          <div class="results">
+            <b>{{ month.kWatts }}</b> kWh / <b>{{ month.cost }}</b> $RS
+          </div>
+        </div>
+      </nb-tab>
+    </nb-tabset>
+  </div>
 
   <div class="chart-container">
     <div class="chart-header">
       <div class="header-stats">
-        
         <div class="stats-block">
           <div class="subtitle">Consumido</div>
           <div>
             <span class="value">816</span>
-            <span class="unit">L</span>
+            <span class="unit">kWh</span>
           </div>
         </div>
 
         <div class="stats-block">
-          <div class="subtitle">Custo</div>
+          <div class="subtitle">Gastos</div>
           <div>
-            <span class="unit">R$</span>
             <span class="value">291</span>
+            <span class="unit">$RS</span>
           </div>
         </div>
       </div>

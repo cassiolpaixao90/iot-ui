@@ -8,13 +8,13 @@ declare const echarts: any;
   styleUrls: ['./solar.component.scss'],
   template: `
     <nb-card size="xsmall" class="solar-card">
-      <nb-card-header>Custo da água em litros </nb-card-header>
+      <nb-card-header>Consumo de Energia Solar</nb-card-header>
       <nb-card-body>
         <div echarts [options]="option" class="echart">
         </div>
         <div class="info">
-          <div class="value">6. 421 L</div>
-          <div class="details"><span>out of</span> 8.421 L</div>
+          <div class="value">6. 421 kWh</div>
+          <div class="details"><span>por</span> 8.421 kWh</div>
         </div>
       </nb-card-body>
     </nb-card>

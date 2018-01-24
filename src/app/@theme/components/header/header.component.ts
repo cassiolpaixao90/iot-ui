@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
+
 import { NbMenuService, NbSidebarService } from '@nebular/theme';
 import { UserService } from '../../../@core/data/users.service';
 
 @Component({
-  selector: 'iot-header',
+  selector: 'ngx-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
 })
@@ -23,7 +24,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.userService.getUsers()
-      .subscribe((users: any) => this.user = users.cassiopaixao);
+      .subscribe((users: any) => this.user = users.nick);
   }
 
   toggleSidebar(): boolean {
