@@ -3,12 +3,12 @@ import { AgmCoreModule } from '@agm/core';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { NgxEchartsModule } from 'ngx-echarts';
 
-import { ThemeModule } from '../../shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { MapsRoutingModule, routedComponents } from './maps-routing.module';
 
 @NgModule({
   imports: [
-    ThemeModule,
+    SharedModule,
     AgmCoreModule.forRoot(),
     LeafletModule.forRoot(),
     MapsRoutingModule,

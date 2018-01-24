@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { ThemeModule } from '../../../shared/shared.module';
+import { SharedModule } from '../../../shared/shared.module';
 import { DefaultButtonsComponent } from './default-buttons/default-buttons.component';
 import { HeroButtonComponent } from './hero-buttons/hero-buttons.component';
 import { ShapeButtonsComponent } from './shape-buttons/shape-buttons.component';
@@ -29,7 +29,7 @@ const components = [
 
 @NgModule({
   imports: [
-    ThemeModule,
+    SharedModule,
   ],
   exports: [
     ...components,

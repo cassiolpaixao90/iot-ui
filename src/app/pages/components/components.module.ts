@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { TreeModule } from 'ng2-tree';
 import { ToasterModule } from 'angular2-toaster';
 
-import { ThemeModule } from '../../shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { ComponentsRoutingModule, routedComponents } from './components-routing.module';
 
 @NgModule({
   imports: [
-    ThemeModule,
+    SharedModule,
     ComponentsRoutingModule,
     TreeModule,
     ToasterModule,
