@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from './pages-routing.module';
-import { ThemeModule } from '../@theme/theme.module';
+import { SharedModule } from '../shared/shared.module';
 
 const PAGES_COMPONENTS = [
   PagesComponent,
@@ -12,7 +12,7 @@ const PAGES_COMPONENTS = [
 @NgModule({
   imports: [
     PagesRoutingModule,
-    ThemeModule,
+    SharedModule,
     DashboardModule,
   ],
   declarations: [

@@ -84,10 +84,10 @@ const NB_THEME_PROVIDERS = [
   exports: [...BASE_MODULES, ...NB_MODULES, ...COMPONENTS, ...PIPES],
   declarations: [...COMPONENTS, ...PIPES],
 })
-export class ThemeModule {
+export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return <ModuleWithProviders>{
-      ngModule: ThemeModule,
+      ngModule: SharedModule,
       providers: [...NB_THEME_PROVIDERS],
     };
   }

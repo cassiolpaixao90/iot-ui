@@ -3,7 +3,7 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ChartModule } from 'angular2-chartjs';
 
-import { ThemeModule } from '../../@theme/theme.module';
+import { ThemeModule } from '../../shared/shared.module';
 
 import { ChartsRoutingModule, routedComponents } from './charts-routing.module';
 import { ChartjsBarComponent } from './chartjs/chartjs-bar.component';
