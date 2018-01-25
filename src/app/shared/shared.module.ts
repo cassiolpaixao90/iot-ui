@@ -17,8 +17,8 @@ import {
   NbCheckboxModule,
 } from '@nebular/theme';
 
-import { FooterComponent }  from './footer/footer.component';
-import { HeaderComponent }  from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 import {
   TinyMCEComponent,
