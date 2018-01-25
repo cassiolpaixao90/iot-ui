@@ -21,8 +21,6 @@ import { FooterComponent }  from './footer/footer.component';
 import { HeaderComponent }  from './header/header.component';
 
 import {
-  SearchInputComponent,
-  ThemeSettingsComponent,
   TinyMCEComponent,
 } from './components';
 import { CapitalizePipe, PluralPipe, RoundPipe, TimingPipe } from './pipes';
@@ -53,8 +51,6 @@ const NB_MODULES = [
 const COMPONENTS = [
   HeaderComponent,
   FooterComponent,
-  SearchInputComponent,
-  ThemeSettingsComponent,
   TinyMCEComponent,
   OneColumnLayoutComponent,
   SampleLayoutComponent,
